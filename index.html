@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balamurugan P | AI/ML Researcher & Software Engineer Portfolio</title>
+  <meta name="description" content="Personal Portfolio of Balamurugan P - Computer Science & Engineering Undergraduate, AI/ML Researcher, and Developer at Saveetha Engineering College.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header & Navigation (STEP 3 & STEP 6) -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">&lt;B/&gt;</span>
+        <span class="logo-text">Balamurugan<span>.dev</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#timeline" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary btn-sm">Collaborate</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Introduction Section (STEP 4 & STEP 9) -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="pulsing-dot"></span> Open for Research Collaborations & Internships
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Balamurugan P</span>
+          </h1>
+          <h2 class="hero-subtitle">Computer Science & Engineering Undergraduate | AI/ML Researcher</h2>
+          <p class="hero-description">
+            Passionate 3rd-year CS student combining algorithmic rigor with machine learning systems. Investigating Explainable AI (XAI) and multi-model ensemble architectures for critical environmental hydrogeology and real-world predictive modeling.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#research" class="btn btn-primary">
+              <span>View Flagship Research</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#projects" class="btn btn-outline">
+              <i class="fa-solid fa-code"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-regular fa-paper-plane"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <div class="social-links">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bala-murugan-13a89b327/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:bm2723282@gmail.com" aria-label="Email Me" class="social-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+918778164767" aria-label="Phone" class="social-icon">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar-glow"></div>
+            <div class="avatar-frame">
+              <div class="avatar-inner">
+                <img src="profile.png" alt="Balamurugan P" class="profile-photo" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
+                <div class="avatar-silhouette" id="avatar-fallback" style="display: none;">
+                  <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+              </div>
+            </div>
+            <!-- Floating feature badges -->
+            <div class="floating-badge badge-1">
+              <div class="badge-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="badge-text">
+                <strong>Explainable AI</strong>
+                <span>SHAP & Ensemble ML</span>
+              </div>
+            </div>
+            <div class="floating-badge badge-2">
+              <div class="badge-icon"><i class="fa-solid fa-award"></i></div>
+              <div class="badge-text">
+                <strong>CGPA 7.92 / 10</strong>
+                <span>Saveetha Engineering</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip (STEP 7 Flexbox) -->
+      <div class="container hero-stats-wrapper">
+        <div class="stats-card">
+          <div class="stat-item">
+            <span class="stat-number">96.4%</span>
+            <span class="stat-label">Model Accuracy (ML)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">6+</span>
+            <span class="stat-label">AI & ML Systems</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Industry Certifications</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">3rd Year</span>
+            <span class="stat-label">B.E. CSE Scholar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section (STEP 4 & STEP 7) -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by Algorithmic Rigor & Applied Intelligence</h2>
+          <p class="section-subtitle">Bridging theoretical computer science with resilient, explainable machine learning systems.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card story-card">
+            <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Background & Philosophy</h3>
+            <p>
+              I am a 3rd-year B.E. Computer Science and Engineering student at <strong>Saveetha Engineering College, Chennai</strong>. My technical focus lies at the intersection of data-driven predictive modeling, natural language processing, and explainable AI.
+            </p>
+            <p>
+              I believe in building models that are not just high-performing, but fundamentally transparent, explainable, and accountable when deployed to solve critical societal and environmental problems.
+            </p>
+            <div class="tag-cloud">
+              <span class="pill-tag"><i class="fa-solid fa-chart-pie"></i> Machine Learning</span>
+              <span class="pill-tag"><i class="fa-solid fa-magnifying-glass-chart"></i> Explainable AI (XAI)</span>
+              <span class="pill-tag"><i class="fa-solid fa-database"></i> SQL Server & BI</span>
+              <span class="pill-tag"><i class="fa-solid fa-code"></i> Data Structures & Algorithms</span>
+              <span class="pill-tag"><i class="fa-solid fa-language"></i> Natural Language Processing</span>
+              <span class="pill-tag"><i class="fa-brands fa-python"></i> Python & Ensemble Modeling</span>
+            </div>
+          </div>
+
+          <div class="about-details-column">
+            <div class="about-card education-card">
+              <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <h3>Academic Credentials</h3>
+              <ul class="timeline-list">
+                <li class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">2024 – 2028</span>
+                    <h4>B.E. Computer Science & Engineering</h4>
+                    <p><strong>Saveetha Engineering College, Chennai</strong></p>
+                    <p class="academic-score">Current Academic Standing: <strong>7.92 / 10 CGPA</strong></p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-date">Specialization</span>
+                    <h4>AI, ML & Enterprise Data Systems</h4>
+                    <p>Certified in Microsoft SQL, Python for Data Science, and Machine Learning architectures.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="about-card quick-info-card">
+              <div class="card-icon"><i class="fa-solid fa-id-card"></i></div>
+              <h3>Quick Profile Specs</h3>
+              <div class="info-list">
+                <div class="info-item">
+                  <span class="info-label">Full Name:</span>
+                  <span class="info-value">Balamurugan P</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">Degree:</span>
+                  <span class="info-value">B.E. Computer Science and Engineering</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">Institution:</span>
+                  <span class="info-value">Saveetha Engineering College, Chennai</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">Email:</span>
+                  <span class="info-value"><a href="mailto:bm2723282@gmail.com">bm2723282@gmail.com</a></span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">Phone:</span>
+                  <span class="info-value">+91 8778164767</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">Location:</span>
+                  <span class="info-value">Chennai, Tamil Nadu, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flagship Research Section -->
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Flagship Research</span>
+          <h2 class="section-title">Explainable, Extraction-Aware Ensemble Learning</h2>
+          <p class="section-subtitle">Groundwater Level Prediction and Regional Criticality Classification with Post-Hoc Transparency.</p>
+        </div>
+
+        <div class="flagship-card">
+          <div class="flagship-header">
+            <div class="flagship-badge">
+              <i class="fa-solid fa-flask"></i> Flagship Research & ML Pipeline
+            </div>
+            <div class="flagship-meta">Target Domain: Hydrogeological Criticality</div>
+          </div>
+
+          <div class="flagship-body">
+            <div class="flagship-details">
+              <h3>Explainable AI Architecture for Dynamic Hydrogeology</h3>
+              <p>
+                A hybrid machine learning architecture that forecasts dynamic groundwater depletion levels and categorizes regional criticality zones with post-hoc explainability. Designed to resolve complex non-linear recharge dynamics and provide policy-grade insights.
+              </p>
+
+              <div class="feature-bullets">
+                <div class="bullet-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span><strong>Multi-Model Ensemble:</strong> Stacking XGBoost, LightGBM, and Random Forest regressors for maximal stability.</span>
+                </div>
+                <div class="bullet-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span><strong>Explainable AI (XAI):</strong> Integrated SHAP & LIME (TreeExplainer) to make black-box feature attribution fully interpretable.</span>
+                </div>
+                <div class="bullet-item">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span><strong>Extraction-Aware Engineering:</strong> Weighted feature engineering addressing seasonal aquifer drawdowns and climate variations.</span>
+                </div>
+              </div>
+
+              <div class="flagship-tags">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">XGBoost</span>
+                <span class="pill-tag">LightGBM</span>
+                <span class="pill-tag">SHAP & LIME</span>
+                <span class="pill-tag">Scikit-Learn</span>
+                <span class="pill-tag">Pandas</span>
+              </div>
+
+              <div class="flagship-actions">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <i class="fa-brands fa-github"></i>
+                  <span>View Repository & Data Pipeline</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="flagship-metrics-grid">
+              <div class="metric-box">
+                <span class="metric-val">96.4%</span>
+                <span class="metric-title">Prediction Accuracy</span>
+                <span class="metric-sub">Validated across regional aquifer test sets</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val">TreeExplainer</span>
+                <span class="metric-title">SHAP Framework</span>
+                <span class="metric-sub">High-fidelity feature contribution breakdown</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val">3-Model</span>
+                <span class="metric-title">Ensemble Regressor</span>
+                <span class="metric-sub">XGBoost + LightGBM + Random Forest</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val">Zone A–D</span>
+                <span class="metric-title">Criticality Classification</span>
+                <span class="metric-sub">Automated risk-level tiering for groundwater</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section (STEP 5, STEP 7 & STEP 8) -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skill Matrix</h2>
+          <p class="section-subtitle">Core programming, machine learning tools, database engineering, and developer toolchains.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: Core Programming -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="category-icon orange"><i class="fa-brands fa-python"></i></div>
+              <div>
+                <h3>Programming & Core CS</h3>
+                <span>Foundations & Algorithmic Rigor</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Python (Data Science & ML)</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>SQL & Relational Schemas</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Data Structures & Algorithms</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5 & CSS3 Web Layouts</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Java (Fundamentals) & C</span>
+                  <span>78%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 78%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: AI & ML Systems -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="category-icon blue"><i class="fa-solid fa-network-wired"></i></div>
+              <div>
+                <h3>AI, ML & Explainability</h3>
+                <span>Modeling, Inference & Evaluation</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Supervised & Ensemble Learning</span>
+                  <span>92%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 92%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Natural Language Processing (NLP)</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Explainable AI (SHAP & LIME)</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Deep Learning & CNNs (Medical Imaging)</span>
+                  <span>82%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 82%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Generative AI & Conversational Agents</span>
+                  <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: Data Tools & BI -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="category-icon purple"><i class="fa-solid fa-database"></i></div>
+              <div>
+                <h3>Data Tools, BI & Workflow</h3>
+                <span>Storage, Analytics & Versioning</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Microsoft SQL Server</span>
+                  <span>92%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 92%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Power BI & Dashboarding</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Pandas, NumPy & Scikit-Learn</span>
+                  <span>94%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 94%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Git, GitHub & Version Control</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Microsoft Excel (Advanced)</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (STEP 4, STEP 7 & STEP 8) -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Applied Engineering</span>
+          <h2 class="section-title">Machine Learning & Software Projects</h2>
+          <p class="section-subtitle">A showcase of production systems spanning NLP, Computer Vision, Healthcare Analytics, and Recommendation Engines.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-preview preview-1">
+              <div class="preview-overlay">
+                <div class="preview-icons">
+                  <i class="fa-solid fa-newspaper"></i>
+                </div>
+              </div>
+              <div class="project-badge">NLP System</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">NLP</span>
+                <span class="project-tag">TF-IDF</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Scikit-Learn</span>
+              </div>
+              <h3 class="project-title">Fake News Detection System</h3>
+              <p class="project-desc">
+                High-precision natural language processing pipeline using TF-IDF vectorization and machine learning classifiers to combat misinformation and classify misleading news articles.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="project-link primary"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a href="#contact" class="project-link secondary"><i class="fa-solid fa-circle-info"></i> Inquire</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-preview preview-2">
+              <div class="preview-overlay">
+                <div class="preview-icons">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+              </div>
+              <div class="project-badge">Healthcare ML</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Healthcare Analytics</span>
+                <span class="project-tag">Clinical Data</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Predictive ML</span>
+              </div>
+              <h3 class="project-title">Heart Disease Prediction System</h3>
+              <p class="project-desc">
+                Clinical decision support system analyzing patient diagnostic biomarkers and physiological risk metrics for early detection and probability assessment of cardiovascular illness.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="project-link primary"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a href="#contact" class="project-link secondary"><i class="fa-solid fa-circle-info"></i> Inquire</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-preview preview-3">
+              <div class="preview-overlay">
+                <div class="preview-icons">
+                  <i class="fa-solid fa-comments"></i>
+                </div>
+              </div>
+              <div class="project-badge">Generative AI</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Generative AI</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">Intent Recognition</span>
+                <span class="project-tag">NLP</span>
+              </div>
+              <h3 class="project-title">Smart AI Chatbot Engine</h3>
+              <p class="project-desc">
+                Context-aware conversational system engineered with intent classification, slot filling, and dialogue state management for automated customer and enterprise interactions.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="project-link primary"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a href="#contact" class="project-link secondary"><i class="fa-solid fa-circle-info"></i> Inquire</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-preview preview-4">
+              <div class="preview-overlay">
+                <div class="preview-icons">
+                  <i class="fa-solid fa-film"></i>
+                </div>
+              </div>
+              <div class="project-badge">Recommendation</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Collaborative Filtering</span>
+                <span class="project-tag">Cosine Similarity</span>
+                <span class="project-tag">Recommender</span>
+              </div>
+              <h3 class="project-title">Movie & Content Recommendation Engine</h3>
+              <p class="project-desc">
+                Personalized discovery platform leveraging item-item and user-user collaborative filtering combined with high-dimensional vector similarity matrices.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="project-link primary"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a href="#contact" class="project-link secondary"><i class="fa-solid fa-circle-info"></i> Inquire</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card">
+            <div class="project-preview preview-2">
+              <div class="preview-overlay">
+                <div class="preview-icons">
+                  <i class="fa-solid fa-file-invoice"></i>
+                </div>
+              </div>
+              <div class="project-badge">HR Tech</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Spacy NLP</span>
+                <span class="project-tag">Named Entity (NER)</span>
+                <span class="project-tag">Automated Screening</span>
+              </div>
+              <h3 class="project-title">Automated Resume Ranking System</h3>
+              <p class="project-desc">
+                NLP entity extraction pipeline parsing complex unformatted CV documents to score job applicant competencies against target job descriptions accurately.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="project-link primary"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a href="#contact" class="project-link secondary"><i class="fa-solid fa-circle-info"></i> Inquire</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card">
+            <div class="project-preview preview-1">
+              <div class="preview-overlay">
+                <div class="preview-icons">
+                  <i class="fa-solid fa-lungs"></i>
+                </div>
+              </div>
+              <div class="project-badge">Deep Learning</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Computer Vision</span>
+                <span class="project-tag">CNN</span>
+                <span class="project-tag">Medical Imaging</span>
+                <span class="project-tag">Deep Learning</span>
+              </div>
+              <h3 class="project-title">Lung Cancer Diagnostic Vision</h3>
+              <p class="project-desc">
+                Convolutional neural network architecture trained for feature segmentation and early-stage pulmonary nodule malignancy identification from chest CT scans.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" class="project-link primary"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a href="#contact" class="project-link secondary"><i class="fa-solid fa-circle-info"></i> Inquire</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Professional Certifications</h2>
+          <p class="section-subtitle">Verified specializations in database administration, predictive modeling, and business intelligence.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card featured-cert">
+            <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+            <div class="cert-body">
+              <span class="cert-badge">Featured Specialization</span>
+              <h3>Microsoft SQL Certification Training</h3>
+              <p class="cert-issuer">Issued by Intellipaat &bull; October 2025</p>
+              <p class="cert-id">Credential Verification ID: <code>31679-4064293-291517</code></p>
+              <p class="cert-desc">Rigorous training in SQL Server architecture, indexing, query optimization, views, triggers, and enterprise data modeling.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+            <div class="cert-body">
+              <h3>Python for Data Science</h3>
+              <p class="cert-issuer">Issued by Intellipaat &bull; 2025</p>
+              <p class="cert-desc">Comprehensive data manipulation with Pandas, NumPy vectorization, data cleaning, and statistical distributions.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+            <div class="cert-body">
+              <h3>Machine Learning Masterclass</h3>
+              <p class="cert-issuer">Issued by Intellipaat &bull; 2025</p>
+              <p class="cert-desc">Supervised/unsupervised algorithms, gradient boosting, hyperparameter tuning with GridSearchCV, and model evaluation metrics.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <div class="cert-body">
+              <h3>Power BI Data Visualization</h3>
+              <p class="cert-issuer">Issued by Intellipaat &bull; 2025</p>
+              <p class="cert-desc">DAX calculations, interactive executive dashboards, star-schema data modeling, and automated KPI reporting.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="cert-body">
+              <h3>SQL for Data Analysis</h3>
+              <p class="cert-issuer">Issued by Intellipaat &bull; 2025</p>
+              <p class="cert-desc">Complex joins, subqueries, window functions, aggregations, and business metrics extraction from large transactional databases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Timeline Section -->
+    <section class="section timeline-section" id="timeline">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Journey</span>
+          <h2 class="section-title">Experience & Milestones</h2>
+          <p class="section-subtitle">Academic timeline, industry internship experience, and research deliverables.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- 1. Saveetha -->
+          <div class="experience-card">
+            <div class="exp-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="exp-content">
+              <div class="exp-meta">
+                <span class="exp-role">B.E. Computer Science and Engineering</span>
+                <span class="exp-date">2024 – 2028</span>
+              </div>
+              <h4 class="exp-org">Saveetha Engineering College, Chennai</h4>
+              <p class="exp-desc">
+                Pursuing undergraduate studies with strong academic foundation in algorithms, system design, databases, and AI. Current CGPA: <strong>7.92 / 10</strong>.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. ApproTech Solutions -->
+          <div class="experience-card">
+            <div class="exp-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="exp-content">
+              <div class="exp-meta">
+                <span class="exp-role">AI & Data Science Intern</span>
+                <span class="exp-date">2025</span>
+              </div>
+              <h4 class="exp-org">ApproTech Solutions</h4>
+              <p class="exp-desc">
+                Engineered end-to-end machine learning, NLP, and business intelligence pipelines. Integrated production models and transformed multi-source raw transactional datasets into actionable insights.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Microsoft SQL Certification -->
+          <div class="experience-card">
+            <div class="exp-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="exp-content">
+              <div class="exp-meta">
+                <span class="exp-role">Database Optimization Specialization</span>
+                <span class="exp-date">2025</span>
+              </div>
+              <h4 class="exp-org">Microsoft SQL Certification Training</h4>
+              <p class="exp-desc">
+                Achieved verified industry credential (ID: 31679-4064293-291517) mastering database architecture, query optimization, indexing strategies, and enterprise data warehouses.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4. Flagship Research -->
+          <div class="experience-card">
+            <div class="exp-icon"><i class="fa-solid fa-microscope"></i></div>
+            <div class="exp-content">
+              <div class="exp-meta">
+                <span class="exp-role">Lead Researcher & ML Engineer</span>
+                <span class="exp-date">2025 – 2026</span>
+              </div>
+              <h4 class="exp-org">Flagship Research: Explainable Hydrogeology ML System</h4>
+              <p class="exp-desc">
+                Authored extraction-aware ensemble framework combining XGBoost, LightGBM, and Random Forest with post-hoc SHAP explainability, attaining 96.4% prediction accuracy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Details & Form Section (STEP 4 & STEP 8) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Reach out for research collaborations, software engineering roles, internships, or technical discussions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Info -->
+          <div class="contact-info-card">
+            <h3>Contact Information</h3>
+            <p>I am actively available for technical collaborations and internship opportunities. Feel free to connect directly!</p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <h4>Email Address</h4>
+                  <a href="mailto:bm2723282@gmail.com">bm2723282@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <h4>Phone / WhatsApp</h4>
+                  <a href="tel:+918778164767">+91 8778164767</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <h4>Location</h4>
+                  <span>Chennai, Tamil Nadu, India (IST UTC +5:30)</span>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <a href="https://www.linkedin.com/in/bala-murugan-13a89b327/" target="_blank" rel="noopener noreferrer">linkedin.com/in/bala-murugan-13a89b327</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <h4>GitHub</h4>
+                  <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer">github.com/Balamurugan429</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-decor-box">
+              <div class="decor-dot"></div>
+              <span>Status: Open for Research Collaborations & Software Engineering Internships</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <h3>Send a Message</h3>
+            <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Thank you, Balamurugan has received your message and will respond shortly!'); this.reset();">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject <span class="required">*</span></label>
+                <input type="text" id="subject" name="subject" placeholder="Research Collaboration / Internship Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" placeholder="Hi Balamurugan, I came across your portfolio and would like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-mark">&lt;B/&gt;</span>
+            <span class="logo-text">Balamurugan<span>.dev</span></span>
+          </a>
+          <p>Computer Science & Engineering undergraduate at Saveetha Engineering College. Building resilient, transparent, and high-performance machine learning & software systems.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#timeline">Journey</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="footer-social-links">
+            <a href="https://github.com/Balamurugan429" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bala-murugan-13a89b327/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:bm2723282@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+918778164767" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Balamurugan P &bull; Saveetha Engineering College, Chennai. Designed with semantic HTML5 & modern CSS3.</p>
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

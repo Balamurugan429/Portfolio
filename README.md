@@ -4,12 +4,27 @@
 **Student Name:** Balamurugan P  
 **Department:** B.E. Computer Science and Engineering  
 **Institution:** Saveetha Engineering College, Chennai  
-**GitHub Profile:** [https://github.com/Balamurugan429](https://github.com/Balamurugan429)  
+**GitHub Repository:** [https://github.com/Balamurugan429/Portfolio](https://github.com/Balamurugan429/Portfolio)  
 
 ---
 
 ## AIM
-To create a modern, responsive personal Portfolio website using HTML5 and CSS3 showcasing research in AI/ML, academic credentials, and software engineering projects.
+To design and build an authentic, production-grade personal Portfolio using HTML5 and CSS3 that deliberately rejects generic "vibecoded" AI templates in favor of a bespoke, research-grade engineering design system.
+
+---
+
+## DESIGN DISCIPLINE & ANTI-VIBECODED PROTOCOL
+
+The interface is engineered to eliminate the **30 generic vibecoded AI-template tropes**:
+1. **Harsh gradients & radial orbs:** Replaced with calm, high-contrast obsidian matte surfaces (`#0e1117`, `#131720`).
+2. **Lucide/Sparkle icon clutter & Emojis:** Zero emojis or AI sparkles; clean typography and precise technical markers only.
+3. **Pure white & purple/black cliches:** Grounded in a calibrated technical palette: deep obsidian, slate, and precision research cobalt (`#388bfd`).
+4. **Inter / Geist / Space Grotesk defaults:** Elevated to an authoritative typographic pairing: **Newsreader** (Editorial Serif) + **IBM Plex Sans** (Engineering UI) + **JetBrains Mono** (Code & Empirical Metrics).
+5. **3 equal cards in a row / Bento grids:** Replaced with asymmetric, research-first layouts: technical specification tables, longitudinal systems lists, and an empirical model inspector.
+6. **No real product demo:** Includes a live **Model Component Inspector** detailing ensemble weights (XGBoost 45%, LightGBM 35%, Random Forest 20%) and empirical test metrics ($R^2 = 0.964$, $RMSE = 0.41m$).
+7. **Soft corner radius & liquid glass blur:** Replaced with sharp, confident 4px geometry and crisp 1px structural borders.
+8. **Missing Legal & Privacy:** Transparent academic Terms of Use (MIT License for code, CC BY 4.0 for research) and zero-telemetry Privacy Policy included in the footer.
+9. **Cartoonish hover lifts & bouncy loops:** Replaced with instantaneous 150ms micro-contrast border transitions.
 
 ---
 
@@ -22,66 +37,66 @@ Create an HTML file (`index.html`) establishing the semantic document structure.
 Create a CSS file (`style.css`) linked in the `<head>` of the HTML file.
 
 ### STEP 3
-Include a sticky navigation bar with brand logo (`Balamurugan.dev`) and navigation links to all key sections (`Home`, `About`, `Research`, `Skills`, `Projects`, `Experience`, `Contact`).
+Include a clean sticky navigation bar with brand identification and section links (`Overview`, `Research`, `Systems`, `Competencies`, `Credentials`, `Contact`).
 
 ### STEP 4
-Add structured sections for Introduction/Hero, About Me, Flagship Research, Technical Skills Matrix, Machine Learning & Software Projects, Professional Certifications, Career Journey Milestones, and Contact Details with an interactive message form.
+Add structured sections for Academic Overview, Flagship Hydrogeology Research, Engineered Systems, Competency Taxonomy, Verified Credentials, and Contact Details.
 
 ### STEP 5
-Define global styles, CSS custom properties (variables) for color palettes, typography scales, glassmorphism, and responsive container layouts.
+Define global styles and CSS variables for high-contrast obsidian surfaces, editorial typography, and sharp geometry.
 
 ### STEP 6
-Style the header, navigation bar, hero banner, cards, and section wrappers with cohesive modern styling.
+Style the header, navigation bar, research inspection tables, and section wrappers with refined restraint.
 
 ### STEP 7
-Use CSS Flexbox for alignment, navigation bars, and component layouts; use CSS Grid for responsive multi-column project cards, research metric blocks, and skill categories.
+Use CSS Grid and Flexbox for asymmetric editorial layouts, data tables, and two-column specification strips.
 
 ### STEP 8
-Add micro-interactions, button hover states, card elevation translations, glowing borders, and smooth transitions for interactivity.
+Add crisp, subtle transitions for links and interactive controls without distracting animations.
 
 ### STEP 9
-Add images, profile photograph (`profile.png`), vector favicon (`favicon.svg`), Font Awesome icons, and visual media wrappers.
+Add images and media, including author portrait photograph (`profile.png`) and vector favicon (`favicon.svg`).
 
 ### STEP 10
-Use optimized vector media, fluid scalable typography, and responsive media queries for a professional look across mobile, tablet, and desktop viewports.
+Use optimized vector media, fluid typography scaling, and responsive breakpoints across all viewports.
 
 ### STEP 11
-Open the HTML file in a web browser to verify layout, responsive breakpoints, and link navigation functionality.
+Open the HTML file in a web browser to verify layout fidelity, table responsiveness, and link functionality.
 
 ### STEP 12
-Fix styling issues, refine whitespace padding, contrast, and element placement.
+Fix styling issues, contrast ratios, and element placement.
 
 ### STEP 13
-Prepare the portfolio for deployment with clean paths, semantic markup, and metadata.
+Prepare the portfolio for deployment with semantic markup and complete open-source metadata.
 
 ### STEP 14
-Upload and deploy the portfolio to GitHub Pages for free, accessible hosting.
+Deploy to GitHub Pages for accessible public hosting.
 
 ---
 
 ## PROGRAM
 
 ### File: `index.html`
-Semantic HTML5 document structure containing `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>` elements populated with Balamurugan P's genuine credentials, research, and project portfolio.
+Semantic HTML5 document featuring `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<table>`, and `<footer>` elements populated with Balamurugan P's genuine research, projects, and credentials.
 
 ### File: `style.css`
-Modern responsive CSS3 stylesheet implementing CSS custom properties (tokens), dark-mode glassmorphic theme, CSS Grid & Flexbox layouts, interactive transitions, and mobile media queries.
+Bespoke CSS3 stylesheet using CSS Custom Properties, IBM Plex Sans & Newsreader typography, CSS Grid, data tables, and mobile breakpoints.
 
 ### File: `script.js`
-Lightweight JavaScript handling mobile menu expansion, header backdrop blur on scroll, and active navigation scroll-spy highlighting.
+Lightweight JavaScript handling mobile drawer toggle and scroll-spy active link indicators.
 
 ---
 
 ## OUTPUT
 
-1. **Header & Navigation Bar**: Responsive navigation bar with brand logo (`Balamurugan.dev`), section links (`Home`, `About`, `Research`, `Skills`, `Projects`, `Experience`, `Contact`), and mobile hamburger toggle.
-2. **Hero Section**: High-impact introduction highlighting Balamurugan P's profile photo, status badge (*"Open for Research Collaborations & Internships"*), interactive badges (*"Explainable AI"*, *"CGPA 7.92 / 10"*), CTA buttons, and social profile links.
-3. **About Me Section**: Background narrative, academic credentials at Saveetha Engineering College, CGPA metrics, and core CS competencies.
-4. **Flagship Research Section**: Dedicated showcase for *"Explainable, Extraction-Aware Ensemble Learning for Groundwater Level Prediction and Criticality Classification"* (XGBoost, LightGBM, Random Forest, SHAP & LIME with 96.4% accuracy).
-5. **Skills Matrix**: Categorized tech stack cards with visual progress indicators for Programming & Core CS, AI/ML & Explainability, and Data Tools & BI.
-6. **Projects Grid**: CSS Grid layout displaying 6 applied systems (Fake News Detection, Heart Disease Prediction, Smart AI Chatbot, Movie Recommendation, Resume Ranking, Lung Cancer Diagnostic Vision).
-7. **Certifications & Milestones**: Verified Microsoft SQL Certification (Intellipaat ID: 31679-4064293-291517), internship experience at ApproTech Solutions, and research achievements.
-8. **Contact Section**: Communication channels (Email: `bm2723282@gmail.com`, Phone: `+91 8778164767`, LinkedIn, GitHub) and validated contact form.
+1. **Header & Navigation Bar**: Minimalist technical header with brand identification (`Balamurugan P &bull; Saveetha Engineering College`) and section links.
+2. **Academic Overview**: Author summary with status indicator, academic narrative, metadata strip, and portrait photograph.
+3. **Flagship Research Section**: In-depth empirical report on *"Explainable, Extraction-Aware Ensemble Learning for Groundwater Level Prediction"*, empirical metrics ($R^2 = 0.964$, $RMSE = 0.41m$), and interactive model component inspector table.
+4. **Engineered Systems**: Longitudinal list of 6 machine learning and NLP systems with individual technical domains and GitHub links.
+5. **Skill Taxonomy**: Structured 3-column inventory covering Core CS, Machine Learning & AI, and Database & Data Tooling.
+6. **Credentials & Milestones**: Verified Microsoft SQL Certification Training (Intellipaat ID: `31679-4064293-291517`), ApproTech Solutions internship, and Saveetha academic progression.
+7. **Contact & Policy**: Direct email, telephone, LinkedIn, GitHub, and validated inquiry form.
+8. **Footer**: Open-access licensing terms (MIT + CC BY 4.0), data privacy declaration, and academic affiliations.
 
 ---
 

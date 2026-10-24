@@ -1,11 +1,6 @@
 # Ex01 Portfolio
 
 ## Date: 24-10-2026
-**Student Name:** Balamurugan P  
-**Department:** B.E. Computer Science and Engineering  
-**Institution:** Saveetha Engineering College, Chennai  
-**GitHub Repository:** [https://github.com/Balamurugan429/Portfolio](https://github.com/Balamurugan429/Portfolio)  
-
 ---
 
 ## AIM
@@ -88,15 +83,9 @@ Lightweight JavaScript handling mobile drawer toggle and scroll-spy active link 
 ---
 
 ## OUTPUT
+<img width="1913" height="998" alt="image" src="https://github.com/user-attachments/assets/65c48caf-f965-402e-9c50-3019b972f4a2" />
 
-1. **Header & Navigation Bar**: Minimalist technical header with brand identification (`Balamurugan P &bull; Saveetha Engineering College`) and section links.
-2. **Academic Overview**: Author summary with status indicator, academic narrative, metadata strip, and portrait photograph.
-3. **Flagship Research Section**: In-depth empirical report on *"Explainable, Extraction-Aware Ensemble Learning for Groundwater Level Prediction"*, empirical metrics ($R^2 = 0.964$, $RMSE = 0.41m$), and interactive model component inspector table.
-4. **Engineered Systems**: Longitudinal list of 6 machine learning and NLP systems with individual technical domains and GitHub links.
-5. **Skill Taxonomy**: Structured 3-column inventory covering Core CS, Machine Learning & AI, and Database & Data Tooling.
-6. **Credentials & Milestones**: Verified Microsoft SQL Certification Training (Intellipaat ID: `31679-4064293-291517`), ApproTech Solutions internship, and Saveetha academic progression.
-7. **Contact & Policy**: Direct email, telephone, LinkedIn, GitHub, and validated inquiry form.
-8. **Footer**: Open-access licensing terms (MIT + CC BY 4.0), data privacy declaration, and academic affiliations.
+<img width="1894" height="981" alt="image" src="https://github.com/user-attachments/assets/95e5e543-2ef2-4ba0-ad22-d181f2f0d73e" />
 
 ---
 
